@@ -1,7 +1,9 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import ProgressBar from "@/components/progress-bar/ProgressBar";
 import TitleAndDesc from "@/components/title-desc/TitleAndDesc";
 import Button from "@/components/button/Button";
+import BestServiceItem from "@/components/best-service-item/BestServiceItem";
 
 import { FaCameraRetro, FaPhotoVideo, FaBaby, FaDrum } from "react-icons/fa";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
@@ -10,7 +12,10 @@ import serviceImg from "../../../public/images/service1.jpg";
 import serviceImg2 from "../../../public/images/service2.jpg";
 
 import "../../styles/services.css";
-import BestServiceItem from "@/components/best-service-item/BestServiceItem";
+
+export const metadata: Metadata = {
+    title: "Services",
+};
 
 export interface IDataBestServices {
     icon: any;

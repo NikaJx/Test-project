@@ -1,0 +1,113 @@
+.blogcard {
+    /* padding-top: 20px; */
+    /* background-color: var(--bg-light); */
+}
+.best-service-heading {
+    margin-bottom: 3rem;
+    text-align: center !important;
+    max-width: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.blogcard .card_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogcard .card_item {
+    max-width: 368px;
+    border: 1px solid var(--border-color-light);
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    transition: 0.2s;
+}
+.blogcard .card_item:hover {
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 17px 26px -16px rgba(0, 0, 0, 0.41);
+}
+.blogcard .card_item img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.blogcard .card_content {
+    padding: 25px;
+    background: #fff;
+}
+.blogcard .card_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.blogcard .card_header span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogcard .card_header div:first-child {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.blogcard .card_header div:first-child h2 {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 12.5px;
+    color: var(--font-color);
+    transition: 0.3s;
+}
+.blogcard .card_header div:first-child:hover h2 {
+    color: var(--pink);
+    transition: all 0.2s ease;
+}
+.blogcard .card_header div:last-child {
+    display: flex;
+    align-items: center;
+}
+.blogcard .card_header div:last-child p {
+    margin-left: 4px;
+    color: var(--font-color);
+}
+.blogcard .card_header div:last-child svg {
+    font-size: 12px;
+}
+
+.blogcard .card_header span img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card_content .card_text {
+}
+.card_content .card_text h3 {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: var(--orange);
+    cursor: pointer;
+}
+.card_content .card_text h4 {
+    text-transform: capitalize;
+    margin: 4px 0 10px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--heading-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card_content .card_text h4:hover {
+    color: var(--pink);
+    transition: all 0.2s ease;
+}
+.card_content .card_text p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--font-color);
+    letter-spacing: 0.2px;
+}

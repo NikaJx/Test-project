@@ -20,3 +20,159 @@ a {
     width: 1200px;
     margin: 0 auto;
 }
+
+body {
+    padding-top: 120px;
+}
+
+.contact-heading {
+    text-align: center !important;
+    max-width: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 3rem;
+}
+
+/* Progess Bar */
+.progress-title {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;
+    font-size: 18px;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.progress-title-1 {
+    width: 80%;
+}
+
+.progress-title-2 {
+    width: 90%;
+}
+
+.progress-title-3 {
+    width: 60%;
+}
+
+.progress-title-4 {
+    width: 85%;
+}
+
+.progress {
+    display: flex;
+    height: 4px;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+}
+
+.progress-bar {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+    background-size: cover;
+    transition: width 0.6s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.progress-bar::after,
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    right: 20%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.progress-bar.gradient-1 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+.progress-bar.gradient-2 {
+    color: #eece90;
+    background-color: #d45529;
+    background-image: linear-gradient(-224deg, #d45529, #eece90);
+}
+
+.progress-bar.gradient-1::after {
+    height: 13px;
+    width: 13px;
+    border: 3px solid;
+    background-color: #fff;
+}
+
+.progress-bar.gradient-2::after,
+.progress-bar.gradient-2::before {
+    content: "";
+    position: absolute;
+    right: 10%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.progress-bar.gradient-2::after {
+    height: 13px;
+    width: 13px;
+    border: 3px solid;
+    background-color: #fff;
+}
+
+.progress-bar.gradient-3 {
+    color: #5c51ff;
+    background-color: #f646a9;
+    background-image: linear-gradient(-224deg, #f646a9, #5c51ff);
+}
+
+.progress-bar.gradient-3::after,
+.progress-bar.gradient-3::before {
+    content: "";
+    position: absolute;
+    right: 40%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.progress-bar.gradient-3::after {
+    height: 13px;
+    width: 13px;
+    border: 3px solid;
+    background-color: #fff;
+}
+
+.progress-bar.gradient-4 {
+    color: #e5529a;
+    background-color: #e77654;
+    background-image: linear-gradient(-224deg, #e77654, #e5529a);
+}
+
+.progress-bar.gradient-4::after,
+.progress-bar.gradient-4::before {
+    content: "";
+    position: absolute;
+    right: 15%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.progress-bar.gradient-4::after {
+    height: 13px;
+    width: 13px;
+    border: 3px solid;
+    background-color: #fff;
+}
+
+/* end */

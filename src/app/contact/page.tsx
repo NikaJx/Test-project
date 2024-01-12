@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { FaEarthAfrica } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -7,6 +8,10 @@ import ContactInputs from "@/components/contact-inputs/ContactInputs";
 import TitleAndDesc from "@/components/title-desc/TitleAndDesc";
 
 import "../../styles/contact.css";
+
+export const metadata: Metadata = {
+    title: "Contact",
+};
 
 const Contact = () => {
     return (

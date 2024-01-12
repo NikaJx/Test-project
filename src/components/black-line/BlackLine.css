@@ -1,0 +1,54 @@
+.black_line {
+    background: #101010;
+    padding: 3rem 0;
+    margin: 6rem 0;
+    color: #fff;
+}
+
+.black_line div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+.black_line div h2 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+}
+.black_line div p {
+    margin: 0px 14px 0 8px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+}
+.black_line div a {
+    color: #fff;
+    transition: 0.5s all;
+}
+
+.outlined_btn_black {
+    /* padding: 14.5px 33px; */
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outlined_btn_black {
+    background-color: #101010 !important;
+    color: #fff !important;
+    box-shadow: inset 0 0 0 2px #fff;
+    border: none !important;
+}
+
+.outlined_btn_black:hover {
+    background-color: #fff !important;
+    color: #101010 !important;
+}
