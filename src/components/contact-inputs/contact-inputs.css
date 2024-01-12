@@ -1,0 +1,41 @@
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right {
+    margin-left: 70px;
+}
+
+.contact-inputs input {
+    width: 570px;
+    color: var(--heading-color);
+    background: #fbfbfb;
+    font-size: 15px;
+    padding: 14px;
+    border: 1px solid #eee;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.contact-inputs input:focus {
+    border: 1px solid var(--pink);
+}
+
+.contact-text-area textarea {
+    height: 120px;
+    margin: 0 0 20px 0;
+    width: 570px;
+    color: var(--heading-color);
+    background: #fbfbfb;
+    font-size: 15px;
+    padding: 14px;
+    border: 1px solid #eee;
+    outline: none;
+    border-radius: 4px;
+}
+
+.contact-text-area textarea:focus {
+    border: 1px solid var(--pink);
+}

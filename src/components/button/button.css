@@ -1,0 +1,35 @@
+.contact-btn {
+    background: var(--pink);
+    color: #fff;
+    border: 2px solid var(--pink);
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.bg-pink {
+    background: var(--pink);
+    color: #fff;
+    border: 2px solid var(--pink);
+}
+
+.bg-white {
+    color: var(--pink);
+    border: 2px solid var(--pink);
+    background: transparent;
+}
+
+.bg-white:hover {
+    background: var(--pink) !important;
+    color: #fff !important;
+    border: 2px solid var(--pink) !important;
+}
+
+.contact-btn:hover {
+    color: var(--pink);
+    border: 2px solid var(--pink);
+    background: transparent;
+}

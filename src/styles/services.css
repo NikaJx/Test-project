@@ -1,0 +1,85 @@
+.services {
+    margin-top: 20px;
+    background: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.service-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-title {
+    color: var(--heading-color);
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+
+.service-info-progres {
+    margin-bottom: 50px;
+    text-align: left;
+    position: relative;
+}
+
+.service-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.making-word {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.makign-word-images img {
+    width: 570px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.making-word-text {
+    margin-left: 50px;
+}
+
+.making-word-text p {
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--font-color);
+    letter-spacing: 0.2px;
+}
+
+.button-word {
+    margin-top: 4rem;
+}
+
+.best-services {
+    margin-top: 120px;
+}
+
+.best-service-heading {
+    text-align: center !important;
+    max-width: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.service-last-child {
+    margin-top: 100px;
+}
+
+.button-last {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-last button {
+    margin-left: 10px;
+}

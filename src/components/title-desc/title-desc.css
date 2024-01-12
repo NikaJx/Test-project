@@ -1,0 +1,16 @@
+.contact-title {
+    color: var(--heading-color);
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.contact-desc {
+    line-height: 28px;
+    color: var(--font-color);
+    letter-spacing: 0.2px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
