@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CiSearch } from "react-icons/ci";
+import DropdownMenu from "../dropdonw-menu/DropdownMenu";
 
 import "./navbar.css";
 
@@ -20,24 +21,8 @@ const Navbar = () => {
                         <li>
                             <Link href={"/services"}>Services</Link>
                         </li>
-                        <li>
-                            {/* <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Dropdown Button
-                </Dropdown.Toggle>
+                        <DropdownMenu />
 
-                <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Blog Posts</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Blog Single</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">404 Page</Dropdown.Item>
-                  <Dropdown.Item href="#/action-4">
-                    Email Template
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-5">Landing Page</Dropdown.Item>
-                  <Dropdown.Item href="#/action-6">Shortcodes</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown> */}
-                        </li>
                         <li>
                             <Link href="/contact">Contact</Link>
                         </li>
