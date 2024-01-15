@@ -4,6 +4,30 @@ import DropdownMenu from "../dropdonw-menu/DropdownMenu";
 
 import "./navbar.css";
 
+interface INavLinks {
+    title: string;
+    href: string;
+}
+
+const navLinks: INavLinks[] = [
+    {
+        title: "Home",
+        href: "/",
+    },
+    {
+        title: "About",
+        href: "#",
+    },
+    {
+        title: "Services",
+        href: "/services",
+    },
+    {
+        title: "Contact",
+        href: "/contact",
+    },
+];
+
 const Navbar = () => {
     return (
         <div className="navbar">
@@ -12,20 +36,13 @@ const Navbar = () => {
 
                 <div className="nav_mid">
                     <ul>
-                        <li>
-                            <Link href={"/"}>Home</Link>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <Link href={"/services"}>Services</Link>
-                        </li>
-                        <DropdownMenu />
+                        {navLinks.map((item, i) => (
+                            <li key={i}>
+                                <Link href={item.href}>{item.title}</Link>
+                            </li>
+                        ))}
 
-                        <li>
-                            <Link href="/contact">Contact</Link>
-                        </li>
+                        <DropdownMenu />
                     </ul>
                 </div>
                 <div className="nav_right">
